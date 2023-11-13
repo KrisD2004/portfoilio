@@ -78,6 +78,27 @@ nav a:hover {
   color: #007bff;
 }
 
+.navbar {
+  height: 40px; /* Adjust the height as needed */
+  background-color: #333; /* Add your preferred background color */
+}
+
+.navbar ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+}
+
+.navbar li {
+  margin-right: 15px;
+}
+
+.navbar a {
+  text-decoration: none;
+  color: white; /* Set the color as per your design */
+}
+
 section {
   padding: 2rem;
   background-color: #fff;
@@ -126,7 +147,6 @@ h2 {
   text-decoration: underline;
 }
 
-/* Additional styling for the navigation */
 nav {
   position: fixed;
   top: 0;
@@ -153,10 +173,7 @@ main {
   margin-top: 4rem;
 }
 
-/* App.css */
-/* ... (previous CSS styles) */
 
-/* Styling for the skill section */
 #skills {
   background-color: #007bff;
   color: #fff;
@@ -192,9 +209,6 @@ main {
 }
 
 
-/* Add this to your App.css or a separate CSS file */
-
-/* Styling for the About section */
 #about {
   background-color: #f4f4f4;
   padding: 2rem;
@@ -224,16 +238,34 @@ main {
   margin-top: 1rem;
 }
 
-/* Styling for the education details */
 #about p:nth-of-type(2),
 #about p:nth-of-type(4) {
   font-weight: bold;
   margin-top: 0.5rem;
 }
 
-/* Styling for the school locations */
 #about p:nth-of-type(3),
 #about p:nth-of-type(5) {
   color: #007bff;
+}
+
+.profile {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.profile-image {
+  max-width: 200px; 
+  border-radius: 50%; 
+  margin-bottom: 1rem;
+}
+
+.profile-description {
+  font-size: 1rem;
+  color: #666;
+  text-align: center;
+  margin-bottom: 1rem;
 }
 

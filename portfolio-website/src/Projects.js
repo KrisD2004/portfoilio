@@ -2,16 +2,30 @@ import React from 'react';
 
 const projects = [
   {
-    title: 'Project 1',
-    description: 'Description of Project 1',
-    link: 'https://example.com/project1',
+    title: 'Horned Beasts',
+    description: 'Galeery of horned beasts seperated by number of horns. Used React.js to build this project',
+    link: 'https://main--lustrous-valkyrie-bada22.netlify.app/',
   },
   {
-    title: 'Project 2',
-    description: 'Description of Project 2',
-    link: 'https://example.com/project2',
+    title: 'Tello Drone',
+    description: 'Used Python to program the drone to do various movements. ',
+    link: 'https://github.com/KrisD2004/PersonalFlyer/blob/main/mainMove.py',
   },
-  // Add more project objects
+  {
+    title: 'Tello Drone',
+    description: 'Used Python to program the drone to do various movements. ',
+    link: 'https://github.com/KrisD2004/PersonalFlyer/blob/main/mainMove.py',
+  },
+  {
+    title: 'Tello Drone',
+    description: 'Used Python to program the drone to do various movements. ',
+    link: 'https://github.com/KrisD2004/PersonalFlyer/blob/main/mainMove.py',
+  },
+  {
+    title: 'Tello Drone',
+    description: 'Used Python to program the drone to do various movements. ',
+    link: 'https://github.com/KrisD2004/PersonalFlyer/blob/main/mainMove.py',
+  },
 ];
 
 function Projects() {
